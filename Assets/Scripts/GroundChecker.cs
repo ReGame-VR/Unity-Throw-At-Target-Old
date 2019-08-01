@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GroundCollision : MonoBehaviour
+public class GroundChecker : MonoBehaviour
 {
-    int numMiss;
+    public GameObject target;
+
     // Start is called before the first frame update
     void Start()
     {
-        numMiss = 0;
+        
     }
 
     // Update is called once per frame
@@ -21,7 +22,7 @@ public class GroundCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            numMiss += 1;
+            target.SendMessage("Miss", this.transform.position);
         }
     }
 }
