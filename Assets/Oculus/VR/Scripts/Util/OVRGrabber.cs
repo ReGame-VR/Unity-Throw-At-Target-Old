@@ -146,6 +146,7 @@ public class OVRGrabber : MonoBehaviour
 
 		float prevFlex = m_prevFlex;
 		// Update values from inputs
+        // MODIFIED HERE TO USE INDEX TRIGGER, NOT MIDDLE TRIGGER, TO GRAB OBJECTS
 		m_prevFlex = OVRInput.Get(OVRInput.Axis1D.PrimaryIndexTrigger, m_controller);
 
 		CheckForGrabOrRelease(prevFlex);
