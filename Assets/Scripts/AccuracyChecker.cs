@@ -14,31 +14,40 @@ public class AccuracyChecker : MonoBehaviour
     private int numMiss;
     private float distAway;
     public TextMeshProUGUI hitCounter;
+    //private String hitCounterText;
     public TextMeshProUGUI missCounter;
+    //private String missCounterText;
     public TextMeshProUGUI distanceFromTarget;
+    private String distanceFromTargetText;
 
     // Start is called before the first frame update
     void Start()
     {
         numHit = 0;
         numMiss = 0;
+        distAway = 0;
+        //hitCounter.text = "Hit: " + numHit;
+        //missCounter.text = "Missed: " + numMiss;
+        distanceFromTargetText = "Please throw the projectile to begin.";
     }
 
     // Update is called once per frame
     void Update()
     {
-        hitCounter.text = "Hit: " + numHit;
-        missCounter.text = "Miss: " + numMiss;
-        distanceFromTarget.text = "You missed by: " + distAway;
+        hitCounter.text = "Hit " + numHit;
+        missCounter.text = "Missed: " + numMiss;
+        distanceFromTarget.text = distanceFromTargetText;
     }
 
-    // When another object 
+    // Called when another object enters the trigger area of this target object.
     private void OnTriggerEnter(Collider other)
     {
-        // 
-        if (other.CompareTag("Projectile"))
+        // If a projectile-tagged object hits the trigger, update the hit counter.
+        if (other.gameObject.GetComponent<GroundChecker>().getTracking() && other.gameObject.CompareTag("Projectile"))
         {
             numHit += 1;
+            other.gameObject.SendMessage("landed");
+            distanceFromTargetText = "Target successfully hit!";
         }
     }
 
@@ -46,5 +55,11 @@ public class AccuracyChecker : MonoBehaviour
     {
         numMiss += 1;
         distAway = Math.Abs(Vector3.Distance(pos, this.transform.position));
+        distanceFromTargetText = "You missed by: " + distAway;
+    }
+
+    private void resetDistText()
+    {
+        distanceFromTargetText = "Please throw the projectile to begin.";
     }
 }

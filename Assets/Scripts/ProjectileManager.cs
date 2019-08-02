@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class ProjectileManager : MonoBehaviour
@@ -7,7 +8,7 @@ public class ProjectileManager : MonoBehaviour
     private GameObject[] projectiles;
     private Vector3[] transforms;
     private Quaternion[] rotations;
-    public GameObject target;
+    public TextMeshProUGUI distAwayText;
     
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,6 @@ public class ProjectileManager : MonoBehaviour
         if (OVRInput.GetUp(OVRInput.Button.One))
         {
             ResetPositions();
-
         }
     }
 
@@ -38,6 +38,9 @@ public class ProjectileManager : MonoBehaviour
             projectiles[i].transform.position = transforms[i];
             projectiles[i].transform.rotation = rotations[i];
             projectiles[i].GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            projectiles[i].SendMessage("hasReset");
+            projectiles[i].GetComponent<GroundChecker>().target.SendMessage("resetDistText");
         }
+
     }
 }
