@@ -29,7 +29,8 @@ public class GroundChecker : MonoBehaviour
         if (tracking && collision.gameObject.CompareTag("Ground"))
         {
             // Tell the target to run its Miss() function with the parameter of the projectile's current position
-            target.SendMessage("Miss", this.transform.position);
+            //target.SendMessage("Miss", this.transform.position);
+            target.GetComponent<AccuracyChecker>().Miss(this.transform.position, this.gameObject);
             // Run the projectile's landed() function
             Landed();
         }

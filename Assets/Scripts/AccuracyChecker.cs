@@ -25,6 +25,8 @@ public class AccuracyChecker : MonoBehaviour
     // String to allow easier modification of the distanceFromTarget TMPro's text field, since it will flip between
     // having hit and having missed
     private String distanceFromTargetText;
+    // Reference to LogManager object in scene
+    public GameObject logManager;
 
     // Start is called before the first frame update
     void Start()
@@ -33,8 +35,6 @@ public class AccuracyChecker : MonoBehaviour
         numHit = 0;
         numMiss = 0;
         distAway = 0;
-        //hitCounter.text = "Hit: " + numHit;
-        //missCounter.text = "Missed: " + numMiss;
         // The distanceFromTarget TMPro will read the following before a projectile has been thrown
         distanceFromTargetText = "Please throw the projectile to begin.";
     }
@@ -61,11 +61,13 @@ public class AccuracyChecker : MonoBehaviour
             other.gameObject.SendMessage("Landed");
             // Update the distanceFromTargetText to reflect the successful hit
             distanceFromTargetText = "Target successfully hit!";
+            // Add hit data to result text file
+            logManager.GetComponent<LogTestResults>().AddText(other.gameObject.name + " successfully hit " + this.name + ".");
         }
     }
 
     // Function to handle when this target's projectile misses and hits the ground.
-    public void Miss(Vector3 pos)
+    public void Miss(Vector3 pos, GameObject projectile)
     {
         // Updates the miss counter
         numMiss += 1;
@@ -73,6 +75,8 @@ public class AccuracyChecker : MonoBehaviour
         distAway = Math.Abs(Vector3.Distance(pos, this.transform.position));
         //  Updates the text string to reflect this
         distanceFromTargetText = "You missed by: " + distAway;
+        // Add miss data to result text file
+        logManager.GetComponent<LogTestResults>().AddText(projectile.name + " missed " + this.name + " by " + distAway + ".");
     }
 
     // Function to reset the text string when called

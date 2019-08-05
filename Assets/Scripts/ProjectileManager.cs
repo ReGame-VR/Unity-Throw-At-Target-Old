@@ -13,8 +13,10 @@ public class ProjectileManager : MonoBehaviour
     private Vector3[] transforms;
     private Quaternion[] rotations;
     // Reference to TMPro object displaying the result of the throw
-    public TextMeshProUGUI distAwayText;
-    
+    //public TextMeshProUGUI distAwayText;
+    // Reference to LogManager object in scene
+    public GameObject logManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +61,7 @@ public class ProjectileManager : MonoBehaviour
             // the TMPro GUI object for the next throw
             projectiles[i].GetComponent<GroundChecker>().target.SendMessage("ResetDistText");
         }
-
+        // Add reset data to result text file
+        logManager.GetComponent<LogTestResults>().AddText("Reset for next throw.");
     }
 }

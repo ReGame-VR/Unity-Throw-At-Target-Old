@@ -1,0 +1,80 @@
+Test Log
+
+Test: 8/5/2019 3:13:22 PM
+Sphere missed Target by 0.8417124.
+Cube successfully hit Target.
+Cube (1) successfully hit Target.
+Cube missed Target by 3.208969.
+Sphere missed Target by 7.164963.
+
+Test: 8/5/2019 3:18:26 PM
+Sphere missed Target by 0.8898759.
+Cube successfully hit Target.
+Cube (1) missed Target by 1.212294.
+Cube missed Target by 7.578112.
+Cube (1) missed Target by 3.816466.
+Sphere missed Target by 1.222915.
+Cube missed Target by 1.381895.
+Cube successfully hit Target.
+Sphere missed Target by 1.64115.
+Cube (1) successfully hit Target.
+
+Test: 8/5/2019 3:25:21 PM
+Sphere missed Target by 1.485136.
+Cube (1) successfully hit Target.
+
+Test: 8/5/2019 3:27:15 PM
+Cube successfully hit Target.
+Cube (1) missed Target by 1.030903.
+Sphere successfully hit Target.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere successfully hit Target.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere successfully hit Target.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere successfully hit Target.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere successfully hit Target.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere successfully hit Target.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Cube missed Target by 1.822411.
+Sphere successfully hit Target.
+Cube (1) successfully hit Target.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 8/5/2019 3:30:24 PM
+Cube successfully hit Target.
+Reset for next throw.
+Cube successfully hit Target2.
+Reset for next throw.
+Sphere successfully hit Target2.
+Reset for next throw.
+Sphere successfully hit Target.
+Reset for next throw.
+Cube successfully hit Target.
+Sphere successfully hit Target.
+HeavierCube successfully hit Target.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere missed Target2 by 7.870037.
+HeavierCube missed Target2 by 7.507119.
+Reset for next throw.

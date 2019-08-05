@@ -12,7 +12,7 @@ public class LogTestResults : MonoBehaviour
     private void Start()
     {
         // Set path of file
-        string path = "Assets/Resources/test.txt";
+        path = "Assets/Resources/ResultsLog.txt";
         LogCurrentTest();
     }
 
@@ -22,7 +22,7 @@ public class LogTestResults : MonoBehaviour
         // Create file if it doesn't already exist
         if (!File.Exists(path))
         {
-            File.WriteAllText(path, "Test Log \n");
+            File.WriteAllText(path, "Test Log\n");
         }
     }
 
@@ -32,7 +32,7 @@ public class LogTestResults : MonoBehaviour
         CheckForFile();
 
         // Content to add
-        string content = "\n Test: " + System.DateTime.Now + "\n";
+        string content = "\nTest: " + System.DateTime.Now + "\n";
 
         // Add the message to the file
         File.AppendAllText(path, content);
