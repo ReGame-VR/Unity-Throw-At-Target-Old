@@ -78,3 +78,12 @@ Reset for next throw.
 Sphere missed Target2 by 7.870037.
 HeavierCube missed Target2 by 7.507119.
 Reset for next throw.
+
+Test: 8/5/2019 4:43:18 PM
+
+Test: 8/5/2019 4:43:51 PM
+HeavierCube successfully hit Target.
+Cube successfully hit Target.
+Sphere successfully hit Target.
+Reset for next throw.
+HeavierCube successfully hit Target.
