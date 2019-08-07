@@ -87,3 +87,31 @@ Cube successfully hit Target.
 Sphere successfully hit Target.
 Reset for next throw.
 HeavierCube successfully hit Target.
+
+Test: 8/7/2019 10:17:54 AM
+Sphere successfully hit Target2.
+HeavierCube missed Target2 by 10.01598.
+Cube successfully hit Target.
+Reset for next throw.
+Cube successfully hit Target2.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere missed Target2 by 5.200399.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere missed Target2 by 5.375469.
+HeavierCube missed Target2 by 5.583113.
+Reset for next throw.
+Cube successfully hit Target2.
+Reset for next throw.
+Cube missed Target by 1.247961.
+Reset for next throw.
+Cube missed Target by 4.323642.
+Reset for next throw.
+Cube missed Target by 6.041624.
+Reset for next throw.
+Sphere missed Target2 by 8.18217.
+Reset for next throw.
