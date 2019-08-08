@@ -115,3 +115,410 @@ Cube missed Target by 6.041624.
 Reset for next throw.
 Sphere missed Target2 by 8.18217.
 Reset for next throw.
+
+Test: 8/8/2019 1:21:46 PM
+Sphere successfully hit Target2.
+Reset for next throw.
+Sphere successfully hit Target.
+Reset for next throw.
+Cube successfully hit Target.
+Reset for next throw.
+HeavierCube missed Target2 by 1.438694.
+Reset for next throw.
+Sphere missed Target2 by 5.714971.
+Reset for next throw.
+Sphere missed Target2 by 7.22948.
+Cube missed Target by 2.967986.
+HeavierCube missed Target2 by 4.773285.
+Reset for next throw.
+Sphere missed Target2 by 5.037908.
+HeavierCube missed Target2 by 5.079245.
+Cube missed Target by 2.927655.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+HeavierCube successfully hit Target.
+Sphere missed Target2 by 4.817186.
+Cube missed Target by 2.60552.
+Reset for next throw.
+Cube successfully hit Target.
+Sphere missed Target2 by 5.605492.
+HeavierCube successfully hit Target.
+Reset for next throw.
+Cube missed Target by 2.359572.
+Sphere missed Target2 by 5.953666.
+Reset for next throw.
+Cube missed Target by 3.219567.
+HeavierCube missed Target2 by 8.377316.
+Sphere missed Target2 by 8.219401.
+Reset for next throw.
+Sphere missed Target2 by 6.208645.
+Reset for next throw.
+Sphere missed Target2 by 5.447131.
+HeavierCube missed Target2 by 5.407574.
+Cube missed Target by 2.413563.
+Reset for next throw.
+Cube successfully hit Target.
+Reset for next throw.
+Cube missed Target by 4.038386.
+HeavierCube successfully hit Target.
+Reset for next throw.
+Sphere missed Target2 by 6.64469.
+HeavierCube missed Target2 by 6.867849.
+Cube successfully hit Target.
+Reset for next throw.
+Cube missed Target by 1.98703.
+Reset for next throw.
+Cube successfully hit Target.
+Sphere successfully hit Target.
+HeavierCube successfully hit Target.
+Reset for next throw.
+Sphere missed Target2 by 7.155839.
+Cube missed Target by 4.664658.
+Reset for next throw.
+Reset for next throw.
+Sphere missed Target2 by 8.0523.
+HeavierCube missed Target2 by 9.743334.
+Reset for next throw.
+Cube successfully hit Target.
+HeavierCube missed Target2 by 3.063873.
+Sphere missed Target2 by 5.13069.
+Reset for next throw.
+Sphere missed Target2 by 5.916297.
+Cube successfully hit Target2.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Cube missed Target by 3.35668.
+Sphere missed Target2 by 4.860746.
+Reset for next throw.
+Sphere missed Target2 by 1.546966.
+Reset for next throw.
+Sphere successfully hit Target2.
+Reset for next throw.
+Sphere missed Target2 by 5.600434.
+Reset for next throw.
+Sphere missed Target2 by 5.757606.
+Reset for next throw.
+Cube missed Target by 4.075617.
+Reset for next throw.
+Cube missed Target by 2.554902.
+Reset for next throw.
+Sphere missed Target2 by 3.787931.
+Reset for next throw.
+Sphere missed Target2 by 1.326314.
+Reset for next throw.
+Sphere missed Target2 by 2.091145.
+Reset for next throw.
+Sphere missed Target2 by 1.657537.
+Reset for next throw.
+Cube missed Target by 4.894432.
+Sphere missed Target2 by 7.927905.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere missed Target2 by 1.640143.
+Reset for next throw.
+Sphere successfully hit Target2.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere successfully hit Target2.
+Reset for next throw.
+Sphere missed Target2 by 6.448357.
+HeavierCube missed Target2 by 6.541935.
+Reset for next throw.
+HeavierCube missed Target2 by 4.76327.
+Reset for next throw.
+HeavierCube missed Target2 by 4.335706.
+Reset for next throw.
+HeavierCube missed Target2 by 4.786024.
+Cube successfully hit Target.
+Reset for next throw.
+HeavierCube successfully hit Target2.
+Reset for next throw.
+
+Test: 8/8/2019 1:56:49 PM
+Sphere missed Target2 by 5.301298.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 8/8/2019 2:30:55 PM
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 0.3036989.
+Reset for next throw.
+
+Test: 8/8/2019 2:32:28 PM
+Sphere missed TrashTarget by 0.8572127.
+Reset for next throw.
+Sphere missed TrashTarget by 0.2914322.
+Reset for next throw.
+Sphere missed TrashTarget by 0.2584819.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed Target by 4.338107.
+Reset for next throw.
+
+Test: 8/8/2019 2:34:02 PM
+Sphere missed TrashTarget by 5.140858.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere missed TrashTarget by 2.258837.
+Reset for next throw.
+Sphere missed TrashTarget by 1.639328.
+Reset for next throw.
+Sphere missed TrashTarget by 1.070342.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 8/8/2019 2:37:32 PM
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Cube missed Target by 5.075058.
+Reset for next throw.
+Sphere missed TrashTarget by 0.5037552.
+Reset for next throw.
+Sphere missed TrashTarget by 0.4976538.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 0.5320422.
+Reset for next throw.
+Sphere missed TrashTarget by 0.4616618.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 1.517147.
+Reset for next throw.
+Sphere missed TrashTarget by 0.5962551.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 1.190293.
+Reset for next throw.
+Sphere missed TrashTarget by 1.770482.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 1.092096.
+Reset for next throw.
+Sphere missed TrashTarget by 0.9540768.
+Reset for next throw.
+Reset for next throw.
+Sphere missed TrashTarget by 0.9340122.
+Reset for next throw.
+Sphere missed TrashTarget by 1.993469.
+Reset for next throw.
+Sphere missed TrashTarget by 0.3962056.
+Reset for next throw.
+Sphere missed TrashTarget by 1.282459.
+Reset for next throw.
+Sphere missed TrashTarget by 0.492056.
+Reset for next throw.
+Sphere missed TrashTarget by 1.100559.
+Reset for next throw.
+Sphere missed TrashTarget by 0.7236643.
+Reset for next throw.
+Sphere missed TrashTarget by 0.7807215.
+Reset for next throw.
+Sphere missed TrashTarget by 0.5007796.
+Reset for next throw.
+Sphere missed TrashTarget by 1.006746.
+Reset for next throw.
+Sphere missed TrashTarget by 1.097396.
+Reset for next throw.
+Sphere missed TrashTarget by 1.361115.
+Reset for next throw.
+Sphere missed TrashTarget by 0.8740311.
+Reset for next throw.
+Sphere missed TrashTarget by 0.3628886.
+Reset for next throw.
+
+Test: 8/8/2019 3:50:49 PM
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere missed TrashTarget by 1.204664.
+Reset for next throw.
+Reset for next throw.
+Sphere missed TrashTarget by 2.648369.
+Reset for next throw.
+Sphere missed TrashTarget by 8.247263.
+HeavierCube missed Target2 by 5.624788.
+Cube missed Target by 3.538506.
+Reset for next throw.
+
+Test: 8/8/2019 3:52:23 PM
+Sphere missed TrashTarget by 0.6862941.
+Reset for next throw.
+Sphere missed TrashTarget by 0.4190321.
+Reset for next throw.
+Sphere missed TrashTarget by 1.633306.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 0.9292224.
+Reset for next throw.
+Reset for next throw.
+
+Test: 8/8/2019 3:54:22 PM
+Sphere missed TrashTarget by 1.988196.
+
+Test: 8/8/2019 3:54:40 PM
+Sphere missed TrashTarget by 1.483784.
+Reset for next throw.
+Sphere missed TrashTarget by 0.3446884.
+Reset for next throw.
+Sphere missed TrashTarget by 1.140881.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 0.5792713.
+Reset for next throw.
+Sphere missed TrashTarget by 0.8262065.
+Reset for next throw.
+
+Test: 8/8/2019 3:56:17 PM
+Sphere missed TrashTarget by 2.746045.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 8/8/2019 3:56:55 PM
+Sphere missed TrashTarget by 2.919328.
+Reset for next throw.
+Sphere missed TrashTarget by 1.183298.
+Reset for next throw.
+Sphere missed TrashTarget by 1.289754.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 1.685236.
+Reset for next throw.
+Sphere missed TrashTarget by 0.7434192.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere missed TrashTarget by 5.202294.
+Reset for next throw.
+Sphere missed TrashTarget by 0.4535986.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Sphere missed TrashTarget by 4.737342.
+Cube missed Target by 12.85685.
+HeavierCube missed Target2 by 5.288316.
+Reset for next throw.
+HeavierCube successfully hit TrashTarget.
+Sphere missed TrashTarget by 0.6476811.
+Reset for next throw.
+
+Test: 8/8/2019 4:02:56 PM
+Sphere missed TrashTarget by 0.4898835.
+Reset for next throw.
+Sphere missed TrashTarget by 1.151606.
+Reset for next throw.
+Cube missed Target by 1.533643.
+HeavierCube missed Target2 by 7.301607.
+Sphere missed TrashTarget by 7.00808.
+Reset for next throw.
+Sphere successfully hit Target.
+Cube successfully hit TrashTarget.
+HeavierCube missed Target2 by 4.781054.
+Reset for next throw.
+HeavierCube missed Target2 by 4.750693.
+Cube missed Target by 6.153658.
+Reset for next throw.
+HeavierCube missed Target2 by 5.422177.
+Cube missed Target by 5.895813.
+Reset for next throw.
+HeavierCube missed Target2 by 5.343332.
+Cube missed Target by 6.263025.
+Reset for next throw.
+HeavierCube missed Target2 by 4.621434.
+Reset for next throw.
+HeavierCube missed Target2 by 4.902977.
+Cube missed Target by 6.083663.
+Reset for next throw.
+HeavierCube missed Target2 by 4.727636.
+Cube missed Target by 6.256854.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+HeavierCube successfully hit TrashTarget.
+Reset for next throw.
+HeavierCube missed Target2 by 5.664569.
+Reset for next throw.
+HeavierCube missed Target2 by 6.992157.
+Cube missed Target by 6.299929.
+Reset for next throw.
+HeavierCube missed Target2 by 4.498754.
+Cube successfully hit TrashTarget.
+Sphere missed TrashTarget by 0.657092.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+Reset for next throw.
+Sphere missed TrashTarget by 1.149555.
+Reset for next throw.
