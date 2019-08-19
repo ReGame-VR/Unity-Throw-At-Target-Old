@@ -897,3 +897,12 @@ Cube successfully hit TrashTarget.
 Sphere successfully hit TrashTarget.
 HeavierCube missed TrashTarget by 0.5679986.
 Reset for next throw.
+
+Test: 8/19/2019 11:12:52 AM
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 8/19/2019 1:19:30 PM
+Reset for next throw.
+Reset for next throw.
