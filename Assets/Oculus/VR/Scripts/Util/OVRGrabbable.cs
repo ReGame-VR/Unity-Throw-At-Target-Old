@@ -37,6 +37,9 @@ public class OVRGrabbable : MonoBehaviour
     protected Collider m_grabbedCollider = null;
     protected OVRGrabber m_grabbedBy = null;
 
+    // public Vector3 to allow calibration of throwing an object.
+    public Vector3 throwModifier = new Vector3(1, 1, 1);
+
 	/// <summary>
 	/// If true, the object can currently be grabbed.
 	/// </summary>
@@ -126,7 +129,8 @@ public class OVRGrabbable : MonoBehaviour
     {
         Rigidbody rb = gameObject.GetComponent<Rigidbody>();
         rb.isKinematic = m_grabbedKinematic;
-        rb.velocity = linearVelocity;
+        // Multiplies the velocity of the throw by the modifier for ease of throwing.
+        rb.velocity = Vector3.Scale(linearVelocity, throwModifier);
         rb.angularVelocity = angularVelocity;
         m_grabbedBy = null;
         m_grabbedCollider = null;

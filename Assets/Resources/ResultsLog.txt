@@ -906,3 +906,65 @@ Reset for next throw.
 Test: 8/19/2019 1:19:30 PM
 Reset for next throw.
 Reset for next throw.
+
+Test: 8/19/2019 2:00:40 PM
+Sphere successfully hit Target.
+Cube successfully hit TrashTarget.
+HeavierCube missed TrashTarget by 0.7963015.
+
+Test: 8/19/2019 2:50:13 PM
+Cube successfully hit TrashTarget.
+Sphere missed TrashTarget by 1.150303.
+HeavierCube missed TrashTarget by 1.023003.
+Reset for next throw.
+Sphere missed TrashTarget by 0.368585.
+Cube missed TrashTarget by 0.6221718.
+HeavierCube missed TrashTarget by 0.4677123.
+Reset for next throw.
+Sphere successfully hit TrashTarget.
+HeavierCube successfully hit TrashTarget.
+Cube successfully hit TrashTarget.
+
+Test: 8/23/2019 1:52:46 PM
+Cube missed TrashTarget by 0.6839724.
+Sphere missed TrashTarget by 2.238452.
+HeavierCube successfully hit TrashTarget.
+
+Test: 8/23/2019 1:56:38 PM
+HeavierCube missed TrashTarget by 14.08098.
+Sphere missed TrashTarget by 11.28672.
+Cube missed TrashTarget by 13.75873.
+
+Test: 8/23/2019 1:57:58 PM
+Sphere missed TrashTarget by 1.657744.
+Cube missed TrashTarget by 0.6964544.
+HeavierCube missed TrashTarget by 0.9983063.
+Reset for next throw.
+Cube missed TrashTarget by 1.829883.
+
+Test: 8/23/2019 2:01:54 PM
+HeavierCube missed TrashTarget by 6.830872.
+Cube missed TrashTarget by 14.05212.
+Sphere missed TrashTarget by 6.198104.
+
+Test: 8/23/2019 2:55:40 PM
+HeavierCube missed TrashTarget by 4.552685.
+Cube missed TrashTarget by 6.477364.
+Sphere missed TrashTarget by 15.34248.
+
+Test: 8/23/2019 2:56:21 PM
+HeavierCube missed TrashTarget by 9.110906.
+Cube missed TrashTarget by 34.61484.
+Sphere missed TrashTarget by 2.906761.
+Reset for next throw.
+HeavierCube missed TrashTarget by 2.657376.
+Cube missed TrashTarget by 4.104819.
+Sphere missed TrashTarget by 17.55314.
+Reset for next throw.
+HeavierCube successfully hit Target.
+Cube missed TrashTarget by 17.59797.
+Sphere missed TrashTarget by 13.63491.
+Reset for next throw.
+HeavierCube missed TrashTarget by 4.747372.
+Cube missed TrashTarget by 11.65519.
+Sphere missed TrashTarget by 25.61908.
