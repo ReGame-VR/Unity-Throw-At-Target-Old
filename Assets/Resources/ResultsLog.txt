@@ -973,3 +973,21 @@ Test: 8/26/2019 11:30:10 AM
 HeavierCube missed TrashTarget by 5.276342.
 Cube missed TrashTarget by 9.203676.
 Sphere missed TrashTarget by 33.78763.
+
+Test: 8/26/2019 2:02:53 PM
+Cube missed TrashTarget by 4.260998.
+Sphere missed TrashTarget by 4.831026.
+HeavierCube missed TrashTarget by 4.208234.
+Reset for next throw.
+Sphere missed TrashTarget by 0.6909466.
+Cube successfully hit TrashTarget.
+
+Test: 8/26/2019 2:03:54 PM
+Cube missed TrashTarget by 58.93121.
+Sphere successfully hit TrashTarget.
+
+Test: 8/27/2019 10:55:44 AM
+Cube missed TrashTarget by 7.421754.
+Sphere missed TrashTarget by 31.9438.
+HeavierCube missed TrashTarget by 1.557158.
+Reset for next throw.
