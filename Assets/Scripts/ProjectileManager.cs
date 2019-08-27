@@ -38,11 +38,16 @@ public class ProjectileManager : MonoBehaviour
     void Update()
     {
         // When the player presses the "A" button on the right hand controller
-        //if (OVRInput.GetUp(OVRInput.Button.One))
+        if (OVRInput.GetUp(OVRInput.Button.One))
+        {
+            Debug.Log("Player reset");
+            // Call the ResetPositions() function
+            ResetPositions();
+        }
         // When the operator presses the space bar
         if (Input.GetKeyUp(KeyCode.Return))
         {
-            //Debug.Log("Operator reset");
+            Debug.Log("Operator reset");
             // Call the ResetPositions() function
             ResetPositions();
         }
