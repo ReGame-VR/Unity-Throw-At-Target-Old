@@ -997,3 +997,8 @@ Test: 8/27/2019 4:48:32 PM
 Test: 8/27/2019 4:49:50 PM
 
 Test: 8/27/2019 4:56:22 PM
+
+Test: 8/29/2019 2:41:47 PM
+Reset for next throw.
+
+Test: 8/29/2019 2:44:59 PM
