@@ -1029,3 +1029,151 @@ Reset for next throw.
 Sphere missed TrashTarget by 4.083747.
 Cube missed TrashTarget by 2.362197.
 HeavierCube missed TrashTarget by 0.972927.
+
+Test: 9/5/2019 3:34:09 PM
+Cube missed TrashTarget by 0.4397219.
+
+Test: 9/5/2019 3:38:15 PM
+
+Test: 9/5/2019 3:39:05 PM
+Cube missed TrashTarget by 6.679698.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 0.8744799.
+Reset for next throw.
+Notebook (1) missed TrashTarget by 2.894455.
+
+Test: 9/5/2019 3:40:48 PM
+Cube missed TrashTarget by 5.264107.
+Reset for next throw.
+Cube missed TrashTarget by 0.2866615.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 0.2593366.
+Reset for next throw.
+Cube missed TrashTarget by 0.2199509.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 0.4296014.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 0.3328081.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 1.046091.
+Reset for next throw.
+
+Test: 9/5/2019 3:47:19 PM
+
+Test: 9/5/2019 3:56:58 PM
+
+Test: 9/5/2019 3:57:39 PM
+Cube missed TrashTarget by 0.6253164.
+Reset for next throw.
+Cube missed TrashTarget by 2.236265.
+Reset for next throw.
+Cube missed TrashTarget by 2.69182.
+Reset for next throw.
+Cube missed TrashTarget by 2.880915.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/5/2019 3:58:47 PM
+
+Test: 9/5/2019 3:58:57 PM
+
+Test: 9/5/2019 4:00:40 PM
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 1.835077.
+Reset for next throw.
+Cube missed TrashTarget by 1.610552.
+Reset for next throw.
+Cube missed TrashTarget by 0.5304103.
+Reset for next throw.
+Cube missed TrashTarget by 0.4360521.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Cube missed TrashTarget by 2.203249.
+Reset for next throw.
+Reset for next throw.
+Cube missed TrashTarget by 0.430448.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/5/2019 4:10:08 PM
+Cube missed TrashTarget by 2.932195.
+
+Test: 9/5/2019 4:11:39 PM
+
+Test: 9/5/2019 4:14:30 PM
+
+Test: 9/5/2019 4:15:52 PM
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Notebook (1) missed TrashTarget by 3.47128.
+Cube missed TrashTarget by 2.082669.
+Reset for next throw.
+Cube successfully hit TrashTarget.
