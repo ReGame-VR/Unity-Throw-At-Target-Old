@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnterPlayerInfo : MonoBehaviour
 {
@@ -19,5 +20,13 @@ public class EnterPlayerInfo : MonoBehaviour
         
     }
 
-    void
+    public void ChangeText()
+    {
+        test.text = "Success!";
+    }
+
+    public void NextScene()
+    {
+        SceneManager.LoadScene("Calibration");
+    }
 }
