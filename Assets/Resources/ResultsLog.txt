@@ -1177,3 +1177,72 @@ Notebook (1) missed TrashTarget by 3.47128.
 Cube missed TrashTarget by 2.082669.
 Reset for next throw.
 Cube successfully hit TrashTarget.
+
+Test: 9/9/2019 10:29:27 AM
+Cube missed TrashTarget by 1.05822.
+Reset for next throw.
+Cube missed TrashTarget by 0.2022786.
+Reset for next throw.
+Cube missed TrashTarget by 0.3087471.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/9/2019 11:07:50 AM
+
+Test: 9/9/2019 11:09:19 AM
+
+Test: 9/9/2019 11:38:51 AM
+
+Test: 9/9/2019 11:46:14 AM
+Cube successfully hit TrashTarget.
+
+Test: 9/9/2019 11:51:02 AM
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/9/2019 1:05:41 PM
+Cube missed TrashTarget by 0.2958137.
+Reset for next throw.
+Cube missed TrashTarget by 1.434534.
+Reset for next throw.
+
+Test: 9/9/2019 1:06:34 PM
+Cube missed TrashTarget by 0.9491155.
+Reset for next throw.
+Cube missed TrashTarget by 0.5692212.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 0.6997661.
+Reset for next throw.
+Cube missed TrashTarget by 0.8970469.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Cube missed TrashTarget by 1.889639.
+Reset for next throw.
+Cube missed TrashTarget by 0.4815099.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Cube missed TrashTarget by 0.8959766.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/9/2019 1:12:13 PM
+Cube missed TrashTarget by 0.8886501.
+Reset for next throw.
