@@ -625,7 +625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &134748260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4797,11 +4797,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 109072, guid: 03b0d2708dc0c7f479517398130c1845, type: 3}
       propertyPath: m_Name
-      value: Notebook (1)
+      value: ThrownNotebook
       objectReference: {fileID: 0}
     - target: {fileID: 109072, guid: 03b0d2708dc0c7f479517398130c1845, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 109072, guid: 03b0d2708dc0c7f479517398130c1845, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 435814, guid: 03b0d2708dc0c7f479517398130c1845, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4903,7 +4907,7 @@ MeshCollider:
   m_GameObject: {fileID: 1514381279}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14

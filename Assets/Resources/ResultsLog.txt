@@ -1710,3 +1710,28 @@ Cube successfully hit TrashTarget.
 Reset for next throw.
 Cube missed TrashTarget by 1.054806.
 Reset for next throw.
+
+Test: 9/11/2019 10:30:48 AM
+Cube missed TrashTarget by 4.340493.
+Reset for next throw.
+Cube missed TrashTarget by 8.497247.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/11/2019 10:42:07 AM
+Cube missed TrashTarget by 1.07897.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Notebook (1) missed TrashTarget by 1.296548.
+
+Test: 9/11/2019 10:42:48 AM
+Cube missed TrashTarget by 1.137323.
+Notebook (1) missed TrashTarget by 3.044455.
+
+Test: 9/11/2019 11:00:30 AM
+Notebook (1) missed TrashTarget by 0.7771802.
+
+Test: 9/11/2019 11:03:33 AM
+Cube successfully hit TrashTarget.
+Reset for next throw.
