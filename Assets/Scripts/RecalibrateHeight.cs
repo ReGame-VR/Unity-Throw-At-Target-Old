@@ -13,12 +13,12 @@ public class RecalibrateHeight : MonoBehaviour
     public GameObject player;
     // gameObject reference to OVRCameraRig, part of OVRPlayerController
     public GameObject cameraRig;
-    // gameObject references to controllers
-    public GameObject leftHand, rightHand;
-    // floats to track HMD height, as well as left and right arm lengths.
-    float height, leftArmLength, rightArmLength;
+    // gameObject references to dominant hand controller
+    public GameObject handController;
+    // floats to track HMD height, as well as dominant arm length.
+    float height, armLength;
     // Reference to text objects to display height and arm length
-    public TextMeshProUGUI heightDisp, leftArmLengthDisp, rightArmLengthDisp;
+    public TextMeshProUGUI heightDisp, armLengthDisp;
     // Boolean to stop accepting new data for height and arm length
     public bool calibrationComplete;
     // Start is called before the first frame update
@@ -31,13 +31,12 @@ public class RecalibrateHeight : MonoBehaviour
     void Update()
     {
         heightDisp.text = "HMD Height = " + height;
-        leftArmLengthDisp.text = "Left Arm Length = " + leftArmLength;
-        rightArmLengthDisp.text = "Right Arm Length = " + rightArmLength;
+        armLengthDisp.text = "Left Arm Length = " + armLength;
         if (!calibrationComplete)
         {
             height = player.GetComponent<OVRPlayerController>().CameraHeight;
-            leftArmLength = Mathf.Abs(Vector3.Distance(cameraRig.transform.position, leftHand.transform.position));
-            rightArmLength = Mathf.Abs(Vector3.Distance(cameraRig.transform.position, rightHand.transform.position));
+            armLength = Mathf.Abs(Vector3.Distance(cameraRig.transform.position, handController.transform.position));
+
         }
         if (Input.GetKeyUp(KeyCode.RightShift))
         {

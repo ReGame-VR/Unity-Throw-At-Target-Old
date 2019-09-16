@@ -346,3 +346,20 @@ ThrownNotebook successfully hit TrashTarget.
 Reset for next throw.
 ThrownNotebook missed TrashTarget by 0.2556916.
 Reset for next throw.
+
+Test: 9/16/2019 11:12:53 AM
+ThrownNotebook missed TrashTarget by 0.5994998.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.1756954.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+ThrownNotebook successfully hit TrashTarget.
+Reset for next throw.
