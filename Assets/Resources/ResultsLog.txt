@@ -363,3 +363,74 @@ Reset for next throw.
 Reset for next throw.
 ThrownNotebook successfully hit TrashTarget.
 Reset for next throw.
+
+Test: 9/17/2019 9:29:31 AM
+ThrownNotebook missed TrashTarget by 1.021653.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.9250516.
+Reset for next throw.
+ThrownNotebook successfully hit TrashTarget.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.353858.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.2710077.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.5068232.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.8663246.
+Reset for next throw.
+
+Test: 9/17/2019 9:30:59 AM
+Cube missed TrashTarget by 0.5925013.
+Reset for next throw.
+Cube missed TrashTarget by 1.095368.
+Reset for next throw.
+Cube missed TrashTarget by 0.9253558.
+Reset for next throw.
+Cube missed TrashTarget by 0.7703654.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 0.8523242.
+Reset for next throw.
+Cube missed TrashTarget by 0.5049265.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 0.8137997.
+Reset for next throw.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 1.480371.
+Reset for next throw.
+ThrownNotebook successfully hit TrashTarget.
+Cube missed TrashTarget by 0.7758483.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.287704.
+Cube missed TrashTarget by 0.848767.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.3192633.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Cube missed TrashTarget by 1.164173.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.5954259.
+Cube missed TrashTarget by 0.5972097.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.7951378.
+Cube missed TrashTarget by 0.4319539.
+Reset for next throw.
+ThrownNotebook successfully hit TrashTarget.
+Cube missed TrashTarget by 0.7542259.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 0.46224.
+Cube missed TrashTarget by 0.5298952.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 1.859978.
+Cube missed TrashTarget by 2.158389.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 1.910821.
+Cube missed TrashTarget by 2.908536.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 2.065181.
+Cube missed TrashTarget by 0.8147247.

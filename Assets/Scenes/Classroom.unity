@@ -640,11 +640,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 663587038}
   cameraRig: {fileID: 1600602436}
-  leftHand: {fileID: 1361459813}
-  rightHand: {fileID: 1320457231}
+  handController: {fileID: 0}
   heightDisp: {fileID: 0}
-  leftArmLengthDisp: {fileID: 0}
-  rightArmLengthDisp: {fileID: 0}
+  armLengthDisp: {fileID: 0}
   calibrationComplete: 0
 --- !u!4 &134748261
 Transform:
@@ -2084,7 +2082,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &496900628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2789,23 +2787,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 14300000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: m_Radius
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: HmdResetsY
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
-      propertyPath: HmdRotatesY
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 162066, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+    - target: {fileID: 100004, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 100004, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+    - target: {fileID: 162066, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
@@ -2844,6 +2830,18 @@ PrefabInstance:
     - target: {fileID: 1125068011842588, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 14300000, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: m_Radius
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: HmdResetsY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
+      propertyPath: HmdRotatesY
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_Layer
@@ -4506,12 +4504,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b32a71e28d3627445b34c64c5d679ff5, type: 3}
---- !u!1 &1320457231 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 195418, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
-    type: 3}
-  m_PrefabInstance: {fileID: 64997131}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1321776352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4602,12 +4594,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c6cfe1008126824983d20c6527dcc1a, type: 3}
---- !u!1 &1361459813 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 143668, guid: e6ba3498ffa1e534b91a07264266e6b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1782463326}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1370061760
 PrefabInstance:
   m_ObjectHideFlags: 0
