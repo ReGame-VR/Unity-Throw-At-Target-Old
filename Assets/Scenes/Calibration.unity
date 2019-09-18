@@ -521,6 +521,18 @@ PrefabInstance:
       objectReference: {fileID: 1881505039}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
+--- !u!1 &1116422337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 195418, guid: ba1fa4a8c66106b4988c88fe4b8e8502,
+    type: 3}
+  m_PrefabInstance: {fileID: 1116422336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1382905772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: ce816f2e6abb0504092c23ed9b970dfd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1881505037}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1437274296
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +668,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 300, y: 0}
-  m_SizeDelta: {x: 400, y: 50}
+  m_SizeDelta: {x: 400, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1479246838
 MonoBehaviour:
@@ -847,12 +859,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1881505037}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1881505040 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: ce816f2e6abb0504092c23ed9b970dfd,
-    type: 3}
-  m_PrefabInstance: {fileID: 1881505037}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1892657897
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1892657898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,8 +889,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1881505038}
-  cameraRig: {fileID: 1881505040}
-  handController: {fileID: 0}
+  centerEyeAnchor: {fileID: 1382905772}
+  leftHand: {fileID: 1997188723}
+  rightHand: {fileID: 1116422337}
+  isRightHanded: 0
   heightDisp: {fileID: 2020865613}
   armLengthDisp: {fileID: 1479246838}
   calibrationComplete: 0
@@ -961,8 +969,19 @@ PrefabInstance:
       propertyPath: m_parentTransform
       value: 
       objectReference: {fileID: 1881505039}
+    - target: {fileID: 137977633181334670, guid: e6ba3498ffa1e534b91a07264266e6b8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3637b758ff163493f8bb8b6d7e96d7ae, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+--- !u!1 &1997188723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 143668, guid: e6ba3498ffa1e534b91a07264266e6b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1997188722}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2020865611
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,7 +1017,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -300, y: 0}
-  m_SizeDelta: {x: 400, y: 50}
+  m_SizeDelta: {x: 400, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2020865613
 MonoBehaviour:

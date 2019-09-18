@@ -434,3 +434,97 @@ Cube missed TrashTarget by 2.908536.
 Reset for next throw.
 ThrownNotebook missed TrashTarget by 2.065181.
 Cube missed TrashTarget by 0.8147247.
+
+Test: 9/18/2019 11:47:44 AM
+
+Test: 9/18/2019 11:48:00 AM
+Eraser (1) missed TrashTarget by 2.719856.
+Cube missed TrashTarget by 2.602041.
+ThrownNotebook missed TrashTarget by 0.8396577.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/18/2019 12:43:07 PM
+ThrownNotebook missed TrashTarget by 0.8387638.
+Cube missed TrashTarget by 1.431136.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 2.266009.
+ThrownNotebook missed TrashTarget by 1.046666.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 0.6707701.
+ThrownNotebook missed TrashTarget by 1.765096.
+Cube missed TrashTarget by 2.634781.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 1.175675.
+Reset for next throw.
+Cube missed TrashTarget by 1.666928.
+ThrownNotebook missed TrashTarget by 2.99448.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 3.129267.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 1.415179.
+Cube missed TrashTarget by 1.209976.
+Eraser (1) missed TrashTarget by 0.6817752.
+Reset for next throw.
+Eraser (1) successfully hit TrashTarget.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 0.5279106.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 0.3865235.
+Reset for next throw.
+Eraser (1) successfully hit TrashTarget.
+ThrownNotebook successfully hit TrashTarget.
+Cube successfully hit TrashTarget.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 3.569526.
+ThrownNotebook missed TrashTarget by 4.409464.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 2.792608.
+Eraser (1) missed TrashTarget by 2.944149.
+Reset for next throw.
+Cube missed TrashTarget by 2.778357.
+Eraser (1) missed TrashTarget by 2.744491.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 3.455864.
+Cube missed TrashTarget by 2.879344.
+Reset for next throw.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 1.682146.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/18/2019 1:13:26 PM
+ThrownNotebook missed TrashTarget by 1.179575.
+Eraser (1) missed TrashTarget by 0.701938.
+Reset for next throw.
+ThrownNotebook missed TrashTarget by 2.973572.
+Eraser (1) missed TrashTarget by 2.999557.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 1.278538.
+ThrownNotebook missed TrashTarget by 1.511046.
+Reset for next throw.
+Cube missed TrashTarget by 1.809349.
+ThrownNotebook missed TrashTarget by 3.235489.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 1.742002.
+ThrownNotebook missed TrashTarget by 2.254256.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 0.5802755.
+ThrownNotebook missed TrashTarget by 1.888508.
+Cube missed TrashTarget by 1.055906.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 2.035379.
+Cube missed TrashTarget by 2.735315.
+ThrownNotebook missed TrashTarget by 2.779496.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 1.603562.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Eraser (1) successfully hit TrashTarget.
+ThrownNotebook missed TrashTarget by 0.2385432.
+Cube missed TrashTarget by 0.2968844.
+Reset for next throw.
+Eraser (1) missed TrashTarget by 0.3857836.
+Reset for next throw.

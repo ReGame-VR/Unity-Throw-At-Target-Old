@@ -11,10 +11,14 @@ public class RecalibrateHeight : MonoBehaviour
 {
     // gameObject reference to OVRPlayerController prefab
     public GameObject player;
-    // gameObject reference to OVRCameraRig, part of OVRPlayerController
-    public GameObject cameraRig;
-    // gameObject references to dominant hand controller
-    public GameObject handController;
+    // gameObject reference to CenterEyeAnchor, part of OVRPlayerController
+    public GameObject centerEyeAnchor;
+    // gameObject references to left hand and right hand controllers
+    public GameObject leftHand, rightHand;
+    // Boolean representing whether the player is right handed or left handed
+    public bool isRightHanded;
+    // gameObject reference to dominant hand
+    private GameObject handController;
     // floats to track HMD height, as well as dominant arm length.
     float height, armLength;
     // Reference to text objects to display height and arm length
@@ -24,6 +28,14 @@ public class RecalibrateHeight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (isRightHanded)
+        {
+            handController = rightHand;
+        }
+        else
+        {
+            handController = leftHand;
+        }
         calibrationComplete = false;
     }
 
@@ -34,8 +46,10 @@ public class RecalibrateHeight : MonoBehaviour
         armLengthDisp.text = "Left Arm Length = " + armLength;
         if (!calibrationComplete)
         {
-            height = player.GetComponent<OVRPlayerController>().CameraHeight;
-            armLength = Mathf.Abs(Vector3.Distance(cameraRig.transform.position, handController.transform.position));
+            //height = player.GetComponent<OVRPlayerController>().CameraHeight;
+            //armLength = Mathf.Abs(Vector3.Distance(centerEyeAnchor.transform.position, handController.transform.position));
+            height = centerEyeAnchor.transform.position.y;
+            armLength = handController.transform.position.y;
 
         }
         if (Input.GetKeyUp(KeyCode.RightShift))
