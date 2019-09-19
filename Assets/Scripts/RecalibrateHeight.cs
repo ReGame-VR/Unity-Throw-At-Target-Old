@@ -20,7 +20,7 @@ public class RecalibrateHeight : MonoBehaviour
     // gameObject reference to dominant hand
     private GameObject handController;
     // floats to track HMD height, as well as dominant arm length.
-    float height, armLength;
+    private float height, armLength;
     // Reference to text objects to display height and arm length
     public TextMeshProUGUI heightDisp, armLengthDisp;
     // Boolean to stop accepting new data for height and arm length
@@ -56,5 +56,23 @@ public class RecalibrateHeight : MonoBehaviour
         {
             calibrationComplete = true;
         }
+    }
+
+    // Getter method for calibrationComplete boolean
+    public bool IsCalibrationComplete()
+    {
+        return calibrationComplete;
+    }
+
+    // Getter method for height float
+    public float GetHeight()
+    {
+        return height;
+    }
+
+    // Getter method for armLength float
+    public float GetArmLength()
+    {
+        return armLength;
     }
 }
