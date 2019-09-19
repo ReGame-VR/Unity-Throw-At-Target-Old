@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class LevelHeightScale : MonoBehaviour
 {
-
+    // gameObject reference to the projectile
+    public GameObject projectile;
+    // gameObject reference to platform the projectile rests on
     public GameObject platform;
-    // gameObject reference to target to throw projectile at
-    public GameObject target;
+    // gameObject reference to target area and physical target object to throw projectile at
+    public GameObject targetField, targetObj;
     // Start is called before the first frame update
     void Start()
     {
