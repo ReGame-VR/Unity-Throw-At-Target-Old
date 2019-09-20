@@ -10,19 +10,26 @@ public class LevelHeightScale : MonoBehaviour
     public GameObject platform;
     // gameObject reference to target area and physical target object to throw projectile at
     public GameObject targetField, targetObj;
+    // floats to track original height and y-position of platform
+    private float startHeight, startYpos;
     // Start is called before the first frame update
     void Start()
     {
-        
+        startHeight = platform.transform.localScale.y;
+        startYpos = platform.transform.position.y;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (! this.GetComponent<RecalibrateHeight>().IsCalibrationComplete())
+        if (! (this.GetComponent<RecalibrateHeight>().IsCalibrationComplete()))
         {
             AdjustTarget();
             AdjustPlatform();
+        }
+        else
+        {
+            Debug.Log("Calibration complete");
         }
     }
 
@@ -33,8 +40,8 @@ public class LevelHeightScale : MonoBehaviour
 
     void AdjustPlatform()
     {
-        // IT JUST GOES uP, FIX IT
-        platform.transform.localScale = new Vector3(platform.transform.localScale.x, platform.transform.localScale.y + this.GetComponent<RecalibrateHeight>().GetHeight(), platform.transform.localScale.z);
-        platform.transform.position = new Vector3(platform.transform.position.x, 0 + (platform.transform.localScale.y / 2), platform.transform.position.z);
+        Debug.Log("Adjusting Platform");
+        platform.transform.localScale = new Vector3(platform.transform.localScale.x, startHeight + this.GetComponent<RecalibrateHeight>().GetHeight(), platform.transform.localScale.z);
+        platform.transform.position = new Vector3(platform.transform.position.x, startYpos + (platform.transform.localScale.y / 2), platform.transform.position.z);
     }
 }
