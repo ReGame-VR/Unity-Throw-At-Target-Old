@@ -20,6 +20,8 @@ public class GroundChecker : MonoBehaviour
     {
         // On startup, the projectile will be tracked
         tracking = true;
+        // Finds target in scene
+        //target = GameObject.FindGameObjectWithTag("Target");
     }
 
     // When the projectile comes in contact with another collider
