@@ -9,7 +9,7 @@ using UnityEngine;
 public class ProjectileManager : MonoBehaviour
 {
     // Arrays to hold references to all projectile objects, their beginning positions and rotations
-    private GameObject[] projectiles;
+    public GameObject[] projectiles;
     private Vector3[] transforms;
     private Quaternion[] rotations;
     // Reference to TMPro object displaying the result of the throw
@@ -23,6 +23,12 @@ public class ProjectileManager : MonoBehaviour
         // Find all projectile objects in the scene
         projectiles = GameObject.FindGameObjectsWithTag("Projectile");
         //Debug.Log(projectiles.Length);
+        AdditionalArrays();
+    }
+
+    // Sets up additional arrays to mirror projectile array
+    public void AdditionalArrays()
+    {
         // Establish the position and rotation arrays to fit the number of projectiles
         transforms = new Vector3[projectiles.Length];
         rotations = new Quaternion[projectiles.Length];

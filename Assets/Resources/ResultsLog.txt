@@ -576,3 +576,131 @@ Test: 9/26/2019 11:34:50 AM
 Test: 9/26/2019 11:36:06 AM
 
 Test: 9/26/2019 11:36:30 AM
+
+Test: 9/26/2019 1:48:45 PM
+TestProjectile(Clone) missed TestTarget by 0.8228474.
+
+Test: 9/26/2019 1:49:36 PM
+
+Test: 9/26/2019 1:50:36 PM
+TestProjectile(Clone) missed TestTarget by 0.9976323.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/26/2019 2:33:11 PM
+
+Test: 9/26/2019 2:34:17 PM
+TestProjectile(Clone) missed TestTarget by 0.1968593.
+
+Test: 9/26/2019 2:35:06 PM
+
+Test: 9/26/2019 2:45:12 PM
+TestProjectile(Clone) missed TestTarget by 0.2118702.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/26/2019 2:54:33 PM
+TestProjectile(Clone) missed TestTarget by 0.2181597.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/26/2019 2:55:07 PM
+
+Test: 9/26/2019 2:56:15 PM
+
+Test: 9/26/2019 3:04:52 PM
+
+Test: 9/26/2019 3:07:25 PM
+
+Test: 9/26/2019 3:09:42 PM
+TestProjectile(Clone) missed TestTarget by 0.474737.
+
+Test: 9/26/2019 3:10:55 PM
+Reset for next throw.
+
+Test: 9/26/2019 3:11:26 PM
+TestProjectile(Clone) missed TestTarget by 0.2218152.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+
+Test: 9/26/2019 3:15:51 PM
+TestProjectile(Clone) missed TestTarget by 0.223446.
+
+Test: 9/26/2019 3:17:56 PM
+
+Test: 9/26/2019 3:18:02 PM
+
+Test: 9/26/2019 3:20:51 PM
+TestProjectile(Clone) missed TestTarget by 0.4205317.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.3670143.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 1.060366.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.2776623.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.614639.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.5819803.
+Reset for next throw.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.8659015.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.266437.
+Reset for next throw.
+Reset for next throw.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.278429.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.7551707.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.5136932.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.4863468.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 1.293609.
+Reset for next throw.
+Reset for next throw.
