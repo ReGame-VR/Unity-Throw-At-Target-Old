@@ -43,7 +43,14 @@ public class RecalibrateHeight : MonoBehaviour
     void Update()
     {
         heightDisp.text = "HMD Height = " + height;
-        armLengthDisp.text = "Left Arm Length = " + armLength;
+        if (isRightHanded)
+        {
+            armLengthDisp.text = "Right Arm Length = " + armLength;
+        }
+        else
+        {
+            armLengthDisp.text = "Left Arm Length = " + armLength;
+        }
         if (!calibrationComplete)
         {
             //height = player.GetComponent<OVRPlayerController>().CameraHeight;
@@ -55,6 +62,10 @@ public class RecalibrateHeight : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.RightShift))
         {
             calibrationComplete = true;
+            //if (GlobalControl)
+            //{
+
+            //}
         }
     }
 
