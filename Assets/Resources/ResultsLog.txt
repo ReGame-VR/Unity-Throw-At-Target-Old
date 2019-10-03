@@ -704,3 +704,17 @@ Reset for next throw.
 TestProjectile(Clone) missed TestTarget by 1.293609.
 Reset for next throw.
 Reset for next throw.
+
+Test: 10/3/2019 4:01:40 PM
+
+Test: 10/3/2019 4:02:55 PM
+
+Test: 10/3/2019 4:03:44 PM
+
+Test: 10/3/2019 4:03:53 PM
+
+Test: 10/3/2019 4:08:24 PM
+TestProjectile(Clone) missed TestTarget by 1.908295.
+Reset for next throw.
+
+Test: 10/3/2019 4:08:58 PM

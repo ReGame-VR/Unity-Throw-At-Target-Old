@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class EnterPlayerInfo : MonoBehaviour
+// Script for Menu scene, when player info is being entered
+public class MenuController : MonoBehaviour
 {
-    public TextMeshProUGUI test;
-    public GameObject button;
+    public TextMeshProUGUI text;
+    public Toggle rightHandToggle;
     // Start is called before the first frame update
     void Start()
     {
-        
+        // disable VR settings for menu scene
+        UnityEngine.XR.XRSettings.enabled = false;
     }
 
     // Update is called once per frame
@@ -22,11 +25,12 @@ public class EnterPlayerInfo : MonoBehaviour
 
     public void ChangeText()
     {
-        test.text = "Success!";
+        text.text = "Success!";
     }
 
     public void NextScene()
     {
+        GlobalControl.Instance.isRightHanded = rightHandToggle.enabled;
         SceneManager.LoadScene("Calibration");
     }
 }

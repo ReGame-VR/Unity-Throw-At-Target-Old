@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /* Script to help calibrate the game to better accomodate players of different
  * heights, based on the HMD height as well as the distance from the HMD to
  * the handheld contrllers.
- */ 
+ */
 public class RecalibrateHeight : MonoBehaviour
 {
     // gameObject reference to OVRPlayerController prefab
@@ -28,6 +29,8 @@ public class RecalibrateHeight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        UnityEngine.XR.XRSettings.enabled = true;
+        isRightHanded = GlobalControl.Instance.isRightHanded;
         if (isRightHanded)
         {
             handController = rightHand;
@@ -62,10 +65,12 @@ public class RecalibrateHeight : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.RightShift))
         {
             calibrationComplete = true;
-            //if (GlobalControl)
-            //{
-
-            //}
+            GlobalControl.Instance.armLength = armLength;
+            GlobalControl.Instance.height = height;
+        }
+        if (Input.GetKeyUp(KeyCode.KeypadEnter) && calibrationComplete)
+        {
+            SceneManager.LoadScene("Classroom");
         }
     }
 
