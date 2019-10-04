@@ -17,11 +17,9 @@ public class LevelHeightScale : MonoBehaviour
     // floats to track the original z-position of the target field and object
     public float startZposField, startZposObject;
     // float to scale platform down to have room for projectile to rest on top of it
-    private float offset;
+    private float platformOffset, targetOffset;
     // float to scale the target position back by as the height scales
     private float multiplier;
-
-    private float sub;
     // gameObject reference to the scene's ProjectileManager
     public GameObject projectileManager;
 
@@ -31,11 +29,11 @@ public class LevelHeightScale : MonoBehaviour
         startYposPlatform = platform.transform.position.y;
         startZposField = targetField.transform.TransformPoint(Vector3.zero).z;
         startZposObject = targetObj.transform.TransformPoint(Vector3.zero).z;
-        offset = GlobalControl.Instance.offset;
+        platformOffset = GlobalControl.Instance.platformOffset;
         multiplier = GlobalControl.Instance.multiplier;
         height = GlobalControl.Instance.height;
         armLength = GlobalControl.Instance.armLength;
-        sub = GlobalControl.Instance.sub;
+        targetOffset = GlobalControl.Instance.targetOffset;
     }
     // Start is called before the first frame update
     void Start()
@@ -59,14 +57,14 @@ public class LevelHeightScale : MonoBehaviour
     public void AdjustTarget()
     {
         Debug.Log("Adjusting Target");
-        targetField.transform.position = new Vector3(targetField.transform.position.x, targetField.transform.position.y, startZposField + (height * multiplier - sub));
-        targetObj.transform.position = new Vector3(targetObj.transform.position.x, targetObj.transform.position.y, startZposObject + (height * multiplier - sub));
+        targetField.transform.position = new Vector3(targetField.transform.position.x, targetField.transform.position.y, startZposField + ((height * multiplier) - targetOffset));
+        targetObj.transform.position = new Vector3(targetObj.transform.position.x, targetObj.transform.position.y, startZposObject + ((height * multiplier) - targetOffset));
     }
 
     public void AdjustPlatform()
     {
         Debug.Log("Adjusting Platform");
-        platform.transform.localScale = new Vector3(platform.transform.localScale.x, startHeight + armLength - offset, platform.transform.localScale.z);
+        platform.transform.localScale = new Vector3(platform.transform.localScale.x, startHeight + armLength - platformOffset, platform.transform.localScale.z);
         platform.transform.position = new Vector3(platform.transform.position.x, startYposPlatform + (platform.transform.localScale.y / 2), platform.transform.position.z);
     }
 

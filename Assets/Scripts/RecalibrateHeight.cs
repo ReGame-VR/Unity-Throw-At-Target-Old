@@ -10,8 +10,6 @@ using UnityEngine.SceneManagement;
  */
 public class RecalibrateHeight : MonoBehaviour
 {
-    // gameObject reference to OVRPlayerController prefab
-    public GameObject player;
     // gameObject reference to CenterEyeAnchor, part of OVRPlayerController
     public GameObject centerEyeAnchor;
     // gameObject references to left hand and right hand controllers
@@ -59,8 +57,6 @@ public class RecalibrateHeight : MonoBehaviour
         }
         if (!calibrationComplete)
         {
-            //height = player.GetComponent<OVRPlayerController>().CameraHeight;
-            //armLength = Mathf.Abs(Vector3.Distance(centerEyeAnchor.transform.position, handController.transform.position));
             height = centerEyeAnchor.transform.position.y;
             armLength = handController.transform.position.y;
             GlobalControl.Instance.armLength = armLength;

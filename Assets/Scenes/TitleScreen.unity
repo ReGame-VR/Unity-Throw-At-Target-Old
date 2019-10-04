@@ -788,9 +788,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   height: 0
   armLength: 0
-  offset: 0.13
-  multiplier: 2
-  sub: 1
+  platformOffset: 0.13
+  multiplier: 3
+  targetOffset: 3
   isRightHanded: 0
   participantID: 
   progression: 0

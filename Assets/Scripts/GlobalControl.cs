@@ -8,7 +8,7 @@ using UnityEngine;
 public class GlobalControl : MonoBehaviour
 {
     // float data
-    public float height, armLength, offset, multiplier, sub;
+    public float height, armLength, platformOffset, multiplier, targetOffset;
 
     // boolean data collected in RecalibrateHeight.cs and the Calibration scene
     public bool isRightHanded;
