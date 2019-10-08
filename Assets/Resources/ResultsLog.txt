@@ -1286,3 +1286,72 @@ Reset for next throw.
 Reset for next throw.
 Reset for next throw.
 Reset for next throw.
+
+Test: 10/5/2019 12:22:58 PM
+TestProjectile(Clone) successfully hit TestTarget.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.4143389.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.6680267.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.9558344.
+Reset for next throw.
+
+Test: 10/5/2019 12:23:30 PM
+ThrownNotebook(Clone) missed TrashTarget by 0.4897073.
+Reset for next throw.
+ThrownNotebook(Clone) successfully hit TrashTarget.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.1902672.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 1.07242.
+Reset for next throw.
+ThrownNotebook(Clone) successfully hit TrashTarget.
+
+Test: 10/5/2019 12:35:25 PM
+
+Test: 10/5/2019 12:35:56 PM
+
+Test: 10/5/2019 12:36:13 PM
+
+Test: 10/5/2019 12:37:14 PM
+TestProjectile(Clone) missed TestTarget by 0.399216.
+Reset for next throw.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.8873907.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 1.501199.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.7364492.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 1.442219.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 1.631736.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 2.193297.
+Reset for next throw.
+TestProjectile(Clone) missed TestTarget by 0.5138369.
+
+Test: 10/5/2019 12:39:10 PM
+ThrownNotebook(Clone) missed TrashTarget by 1.416452.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.6491992.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.2445973.
+Reset for next throw.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 1.200789.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.9772434.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.81361.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.8212342.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.6683564.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.961002.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.8381956.
+Reset for next throw.
+ThrownNotebook(Clone) missed TrashTarget by 0.4209145.
