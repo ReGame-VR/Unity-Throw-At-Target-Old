@@ -69,6 +69,7 @@ public class ProjectileManager : MonoBehaviour
             projectiles[i].transform.rotation = rotations[i];
             // Reset its velocity to 0, no momentum
             projectiles[i].GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 0);
+            projectiles[i].GetComponent<Rigidbody>().angularVelocity = new Vector3(0, 0, 0);
             // Tell the projectile to run its HasReset() function to mark it as ready to track again
             projectiles[i].SendMessage("HasReset");
             // Tell the projectile's corresponding target to run its ResetDistText() function to reset 
