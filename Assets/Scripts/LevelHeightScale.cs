@@ -25,6 +25,7 @@ public class LevelHeightScale : MonoBehaviour
 
     void Awake()
     {
+        // Sets up starting values for calibration
         startHeight = platform.transform.localScale.y;
         startYposPlatform = platform.transform.position.y;
         startZposField = targetField.transform.TransformPoint(Vector3.zero).z;
@@ -38,6 +39,7 @@ public class LevelHeightScale : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // For setting up the scene during and post-calibration
         if (GlobalControl.Instance.isRightHanded)
         {
             platform.transform.position = new Vector3(platform.transform.position.x + 1.056f, platform.transform.position.y, platform.transform.position.z);
@@ -54,6 +56,8 @@ public class LevelHeightScale : MonoBehaviour
         armLength = GlobalControl.Instance.armLength;
     }
 
+    // Script to adjust distance of target from player based on player height
+    // NOTE: May not work properly with quick compromise made for Quest testing
     public void AdjustTarget()
     {
         Debug.Log("Adjusting Target");
@@ -61,6 +65,7 @@ public class LevelHeightScale : MonoBehaviour
         targetObj.transform.position = new Vector3(targetObj.transform.position.x, targetObj.transform.position.y, startZposObject + ((height * multiplier) - targetOffset));
     }
 
+    // Script to adjust platform height for projectile to rest on, matching where the player's hand will be
     public void AdjustPlatform()
     {
         Debug.Log("Adjusting Platform");
@@ -68,9 +73,11 @@ public class LevelHeightScale : MonoBehaviour
         platform.transform.position = new Vector3(platform.transform.position.x, startYposPlatform + (platform.transform.localScale.y / 2), platform.transform.position.z);
     }
 
+    // Spawns the projectile to be thrown
     public void SpawnProjectile()
     {
         Debug.Log("Spawning " + projectilePrefab.name);
+        // Spawns projectile based on provided prefab, updates corresponding arrays for projectiles, their positions, and their rotations
         projectileInstance = (GameObject)Instantiate(projectilePrefab, new Vector3(platform.transform.position.x, 
             platform.transform.localScale.y + projectilePrefab.transform.localScale.y, platform.transform.position.z), Quaternion.identity);
         GameObject[] newProjectiles = new GameObject[projectileManager.GetComponent<ProjectileManager>().projectiles.Length + 1];

@@ -44,7 +44,7 @@ public class ProjectileManager : MonoBehaviour
     void Update()
     {
         // When the player presses the "A" button on the right hand controller
-        if (OVRInput.GetUp(OVRInput.Button.One))
+        if (OVRInput.GetUp(OVRInput.RawButton.A))
         {
             Debug.Log("Player reset");
             // Call the ResetPositions() function

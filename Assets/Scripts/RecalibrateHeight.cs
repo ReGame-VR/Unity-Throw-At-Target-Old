@@ -30,7 +30,9 @@ public class RecalibrateHeight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Turns VR back on from title scene
         UnityEngine.XR.XRSettings.enabled = true;
+        // Setting up values for calibration scene
         if (GlobalControl.Instance.isRightHanded)
         {
             handController = rightHand;
@@ -55,6 +57,7 @@ public class RecalibrateHeight : MonoBehaviour
         {
             armLengthDisp.text = "Left Arm Length = " + armLength;
         }
+        // Taking values while calibration is not yet complete
         if (!calibrationComplete)
         {
             height = centerEyeAnchor.transform.position.y;
@@ -64,19 +67,21 @@ public class RecalibrateHeight : MonoBehaviour
             levelScaler.GetComponent<LevelHeightScale>().AdjustTarget();
             levelScaler.GetComponent<LevelHeightScale>().AdjustPlatform();
         }
-        if (Input.GetKeyUp(KeyCode.RightShift))
+        // If operator presses RightShift, or if player presses Y, the calibration completes and values are stored
+        if (OVRInput.GetUp(OVRInput.RawButton.Y) || (Input.GetKeyUp(KeyCode.RightShift)) && !calibrationComplete)
         {
             calibrationComplete = true;
             GlobalControl.Instance.armLength = armLength;
             GlobalControl.Instance.height = height;
         }
+        // Spawns a projectile once
         if (calibrationComplete && !projectileSpawned)
         {
             levelScaler.GetComponent<LevelHeightScale>().SpawnProjectile();
             projectileSpawned = true;
             Debug.Log("Calibration complete");
         }
-        if (Input.GetKeyUp(KeyCode.KeypadEnter) && calibrationComplete)
+        if ((OVRInput.GetUp(OVRInput.RawButton.X) || Input.GetKeyUp(KeyCode.KeypadEnter)) && calibrationComplete)
         {
             SceneManager.LoadScene("Classroom");
         }
